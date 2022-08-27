@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>secretos</title>
+        <link rel="stylesheet" href="styles/MensajesSecretos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><img class="logo" src="assets/logo.png" alt="el logo de la pagina"></h1>
+            <img class="rectangulo" src="assets/Rectangulo.jpg" alt="rectangulo en lado derecho para colocar el texto y imagen">
+        </header>
+        <main>
+            <section>  
+              <button class="encriptar" onclick="btnencriptar()">encriptar</button>
+              <label class="texto-izquierdo">escriba su texto:</label>
+               <input class="texto-encriptar" type="text" id="texto">
+               <img class="imagen" src="assets/candadoseguro.jpg" alt="imagen de un candado que remplaza el texto">
+               <button class="copiar" onclick="copiaecribir()">copiar</button> 
+            </section>
+            <section>
+                <button class="desencriptar" onclick="btndesencriptar()">desencriptar</button>
+                <label class="texto-derecho">escriba su texto:</label>
+                <input class="texto-desencriptar" type="text">
+           </section>
+            
+        </main>
+          <script src="scripts/script.js"></script>
+         <p class="Copyright"> &copy Copyright Maria Azucena Torres Gorlero - 2022</p>
+             
+    </body>
+</html>
